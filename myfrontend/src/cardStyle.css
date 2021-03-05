@@ -1,0 +1,68 @@
+body{
+    background: radial-gradient(white,gray,black);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card:hover{
+    box-shadow: 5px 10px 20px 1px black ;
+}
+.card-body{
+    padding: 6rem 5rem ;
+}
+.card-text{
+    font-size: 0.9rem;
+    padding: 3rem 2rem  ;
+}
+.container-fluid .row{
+    padding-top: 8rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Cabin', sans-serif;
+    border: 2px solid black;
+  }
+  
+  .card h3{
+    text-shadow: 1px 1px 4px black;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  
+  .card h3 b{
+    color: rgb(252, 212, 33);
+  }
+
+  .form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 6rem 5rem ;
+  }
+
+  .form input{
+      width: 200px;
+      height: 20px;
+      margin: 5px;
+  }
+
+.ref-button{
+    width: 200px;
+    height:60px;
+    background-color: white;
+    border: 2px solid #080708;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ref-button:hover{
+    background-color:gray;
+  }
+
+  
